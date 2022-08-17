@@ -1,0 +1,60 @@
+<html>
+<head>
+    <style>
+        body {
+            text-align: center;
+        }
+        
+    </style>
+    <script>
+        var LoggedIn = false;
+        function Reveal() {
+            if (LoggedIn == false) {
+                document.getElementById("Main").style.visibility = "visible";
+                LoggedIn = true;
+                document.getElementById("Login").innerHTML = "Log Out"
+            }
+            else {
+                document.getElementById("Main").style.visibility = "hidden";
+                LoggedIn = false;
+                document.getElementById("Login").innerHTML = "Log In"
+            }
+            
+        }
+    </script>
+</head>
+<body>
+    <h1 tag="title"> Diamondhart Anomaly Log </h1>
+    <h1 tag="title"> Alpha1 </h1>
+    <button onclick="Reveal()" id="Login"> Log In </button>
+    <p id="Main" style="visibility: hidden">
+       Containment Difficulty: 0 <br />
+       Danger Level: 2 <br />
+       Breech Level: 0 <br />
+       Benefit Level: 3 <br />
+        
+        
+       Description: <br />
+       Alpha1 is an arcade machine that was in [CLASSIFIED], it is in possession of the Diamondhart Foundation. <br />
+       When played, the player is teleported into an unknown area, hereby called 'Alpha1-P' <br />
+       Radio signals don't work in Alpha1-P, suggesting its in a pocket dimension. <br />
+       Alpha1-P consists of 3 rooms, one is a empty room with white walls and floors, this room has a hidden door that leads to the next room <br />
+       The next room is a hallway, with 2 doors. One leads to a different room, whitch appears to be a studio, One of the walls is revealed to be a invisible glass <br />
+       The Other door is an escape back to the arcade. <br />
+                                                       <br />
+       Future Experiments: <br />
+       Entering Alpha1-P and unplugging the machine <br />
+       Entering Alpha1-P with an object <br />
+       <br />
+       Potential Uses: <br />
+       Prisoning dangerous indiviguals <br />
+       Storage and Containment of Anomalies <br />
+       Safehouse for Important People <br />
+        <br />
+       Report Credits: <br />
+       Lucas Bjorn <br />
+
+    </p>
+    
+</body>
+</html>
