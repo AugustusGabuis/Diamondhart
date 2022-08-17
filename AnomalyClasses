@@ -1,0 +1,38 @@
+<html>
+<head>
+<style>
+body {
+text-align: center
+}
+</style>
+</head>
+<body>
+<h1> Diamondhart Anomaly Classifications </h1>
+<p> At the top of files, you may have seen different classes </p>
+<p> Let's see what they are. </p>
+<p> Containment Difficulty is how difficult it is to contain a specific anomaly.</p>
+<p> 0 - No effort to contain </p>
+<p> 1 - Some effort to contain</p>
+<p> 2 - Takes effort to contain</p>
+<p> 3 - Substantial Effort to contain</p>
+<p> 4 - Large effort to contain </p>
+<p> 5 - Impossible to contain </p>
+<br />
+<p> Danger Level is how dangerous it is</p>
+<p> 0 - Harms no one </p>
+<p> 1 - Potential Danger</p>
+<p> 2 - Apparent Danger</p>
+<p> 3 - Danger </p>
+<p> 4 - World Ending </p>
+<p> 5 - Universal End </p>
+<br />
+<p> Finally, Benefit Level. </p>
+<p> 0 - Not Benefitial </p>
+<p> 1 - Financially Benefitial </p>
+<p> 2 - Logistically Benefitial</p>
+<p> 3 - Benefitial to other anomalies containment </p>
+<p> 4 - Militarily benefitial </p>
+<p> 5 - All of the above </p>
+<p> And thats all of the Diamondhart Anomaly Classes. </p>
+</body>
+</html>
