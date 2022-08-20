@@ -1,39 +1,31 @@
 <html>
 <head>
-    <style>
-        body {
-            text-align: center;
-        }
-        
-    </style>
-    <script>
-        var LoggedIn = false;
-        function Reveal() {
-            if (LoggedIn == false) {
-                document.getElementById("Main").style.visibility = "visible";
-                LoggedIn = true;
-                document.getElementById("Login").innerHTML = "Log Out"
-            }
-            else {
-                document.getElementById("Main").style.visibility = "hidden";
-                LoggedIn = false;
-                document.getElementById("Login").innerHTML = "Log In"
-            }
-            
-        }
-    </script>
+  <style>
+    body {
+     text-align: center;
+     font-size: 35px;
+     background-color: #4A4A4A;
+    }
+    img {
+     
+     width: 25%;
+     height: 25%;
+     margin: 20px
+    }
+    
+  </style>
+  
 </head>
 <body>
-    <h1 tag="title"> Diamondhart Anomaly Log </h1>
-    <h1 tag="title"> Alpha2 </h1>
-    <button onclick="Reveal()" id="Login"> Log In </button>
-   <div id="Main" style="visibility: hidden">
-    <p> Containment Difficulty: 3</p>
-   <p> Danger Level: 2</p>
-   <p> Benefitial Level: 4</p>
-   <br />
-   <p> Description: </p>
-   <p> Alpha2 is a saucer-like building, not much observations have been made because it was only recently found. </p>
-    </div>
-       </body>
+    <p> Diamondhart Hazmat Company </p>
+    <p> Alpha2</p>
+    <p> Descriptions: </p>
+    <p> Alpha2 is a saucer-shapped building, nothing more is known. </p>
+    <image src="Alpha2" style="float: left" />
+    <p> Benefits: </p>
+    <p> Unknown </p>
+    <p> Credits: </p>
+    <p> Lucas Bjorn </p>
+</body>
+
 </html>
