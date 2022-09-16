@@ -1,4 +1,4 @@
-<?php
+
 <head>
   <style>
     body {
@@ -44,10 +44,12 @@
   <br />
   <br />
   <br />
- 
+ <?php
+  echo: "Test"
+    ?>
   <image src="I5.png" style="float: left"/>
   <image src="I6.png" style="float: right"/>
   <script src="NewArticleHandler.php" />
     </body>
 
-?>
+
