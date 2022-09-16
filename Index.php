@@ -45,7 +45,7 @@
   <br />
   <br />
  <?php
-  echo: "Test"
+  echo "Test";
     ?>
   <image src="I5.png" style="float: left"/>
   <image src="I6.png" style="float: right"/>
