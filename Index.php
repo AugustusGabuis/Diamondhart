@@ -1,4 +1,4 @@
-<html>
+<?php
 <head>
   <style>
     body {
@@ -50,4 +50,4 @@
   <script src="NewArticleHandler.php" />
     </body>
 
-</html>
+?>
